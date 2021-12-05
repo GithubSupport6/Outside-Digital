@@ -1,0 +1,17 @@
+{
+    "app" : {
+        "port" : 3000
+    },
+    "auth" : {
+        "secret": "5f9e31a9f60929664518f72af9aef5cd60440c921e69e8588d67f010671543dbc3ea50265d5f6fe2e36be74096070c313a8588fe5e2617d24e0e4a8804f0bbec",
+        "expires" : "1800"
+    }, 
+    "db": {
+        "login":"postgres",
+        "password":"admin",
+        "host":"localhost",
+        "port": 5432,
+        "database" : "outside-digital-db",
+        "migrationsRequired": 0
+    }
+}
